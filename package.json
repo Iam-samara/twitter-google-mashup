@@ -1,0 +1,24 @@
+{
+  "name": "twitter-google-mashup",
+  "version": "1.0.0",
+  "description": "connect to a public twitter account and pull the latest 10 tweets. Display those locations on google maps using the google geolocation API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iam-samara/twitter-google-mashup.git"
+  },
+  "author": "Samara H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iam-samara/twitter-google-mashup/issues"
+  },
+  "homepage": "https://github.com/Iam-samara/twitter-google-mashup#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "oauth": "^0.9.14"
+  }
+}
