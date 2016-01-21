@@ -6,7 +6,7 @@ var express = require('express'),
 app.use(express.static('client'));
 app.get('/', function(req,res) {
   res.sendFile(__dirname + /client/index.html);
-})
+});
 
 /** connecting to twitter */
 //secret keys in config folder

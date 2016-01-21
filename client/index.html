@@ -13,7 +13,17 @@
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 34.041934, lng: -118.235111},
-        zoom: 8
+        zoom: 9
+      });
+     var marker = new google.maps.Marker({
+        position: {lat: 34.045945, lng: -118.234471},
+        map: map,
+        title: 'the pie hole'
+      });
+     var marker2 = new google.maps.Marker({
+        position: {lat: 33.783660, lng: -118.113273},
+        map: map,
+        title: 'California State University, Long Beach'
       });
     }
   </script>
